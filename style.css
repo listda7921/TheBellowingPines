@@ -1,0 +1,73 @@
+.navbar {
+    font: 700 30px/1.8 Cooper Black, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    box-shadow:rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+  }
+  body {
+    font: 500 16px/1.8 Lucida, sans-serif;
+    color: #777;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+  .content{
+      font: 100 25px/1.8 Cooper Black, sans-serif;
+      padding: 1em;
+      background: rgba(45,45,48,.9);
+      border-radius: 3px;
+      opacity: 1;
+      margin: 1em;
+      color: #fff;
+      text-align:center;
+  }
+  .email{
+      font: 100 40px/1.8 Cooper Black, sans-serif;
+      padding: 1em;
+      background: rgba(45,45,48,.9);
+      border-radius: 3px;
+      opacity: 1;
+      margin: 1em;
+      color: #fff;
+      text-align:center;
+  }
+    .header{
+      font: 700 30px/1.8 Cooper Black, sans-serif;
+      color: #fff;
+      text-align:center;
+  }
+  .footer {
+    font: 100 11px/1.8 Cooper Black, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(45,45,48,.9);
+    color: white;
+    text-align: center;
+    opacity: 1;
+  }
+  .landing {
+    font: 100 60px/1.8 Cooper Black, sans-serif;
+    padding: 1.7em;
+    background: rgba(45,45,48,.9);
+    border-radius: 3px;
+    opacity: 1;
+    margin: 1em;
+    color: #fff;
+    text-align:center;
+  }
