@@ -36,7 +36,7 @@
       text-align:center;
   }
   .email{
-      font: 100 40px/1.8 Cooper Black, sans-serif;
+      font: 100 17px/1.8 Cooper Black, sans-serif;
       padding: 1em;
       background: rgba(45,45,48,.9);
       border-radius: 3px;
@@ -46,7 +46,7 @@
       text-align:center;
   }
     .header{
-      font: 700 30px/1.8 Cooper Black, sans-serif;
+      font: 700 20px/1.8 Cooper Black, sans-serif;
       color: #fff;
       text-align:center;
   }
@@ -62,12 +62,129 @@
     opacity: 1;
   }
   .landing {
-    font: 100 60px/1.8 Cooper Black, sans-serif;
+    font: 100 17px/1.8 Cooper Black, sans-serif;
     padding: 1.7em;
-    background: rgba(45,45,48,.9);
     border-radius: 3px;
     opacity: 1;
     margin: 1em;
     color: #fff;
     text-align:center;
   }
+  .shows {
+    font: 100 7px/1.8 Cooper Black, sans-serif;
+    text-align:center;
+  }
+  
+  .videoWrapper1{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .videoWrapper1 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .videoWrapper2{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .videoWrapper2 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .videoWrapper3{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .videoWrapper3 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .videoWrapper4{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .videoWrapper4 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .videoWrapper5{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+  .videoWrapper5 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .audioWrapper1 iframe {
+    border: 0; 
+    width: 200px; 
+    height: 530px;
+  }
+  .audioWrapper2 iframe {
+    border: 0; 
+    width: 200px; 
+    height: 630px;
+  }
+  .audioWrapper3 iframe {
+    border: 0; 
+    width: 200px; 
+    height: 695px;
+  }
+@media (min-width: 600px) {
+    .landing {
+    font: 100 60px/1.8 Cooper Black, sans-serif;
+    padding: 1.7em;
+    border-radius: 3px;
+    opacity: 1;
+    margin: 1em;
+    color: #fff;
+    text-align:center;
+    }
+    .header{
+      font: 700 30px/1.8 Cooper Black, sans-serif;
+      color: #fff;
+      text-align:center;
+    }
+    .shows {
+      font: 100 30px/1.8 Cooper Black, sans-serif;
+     text-align:center;
+    }
+    .email{
+      font: 100 40px/1.8 Cooper Black, sans-serif;
+    }
+    .audioWrapper1 iframe {
+    border: 0; 
+    width: 350px; 
+    height: 654px;
+    }
+    .audioWrapper2 iframe {
+    border: 0; 
+    width: 350px; 
+    height: 753px;
+    }
+    .audioWrapper3 iframe {
+    border: 0; 
+    width: 350px; 
+    height: 786px;
+    }
+}
